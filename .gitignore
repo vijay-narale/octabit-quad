@@ -1,0 +1,43 @@
+# Logisim-evolution & EDA Temporary Files
+*.circ.bak
+*.circ~
+*.circ.tmp
+*.circ#
+*.autosave
+logisim-evolution.log
+hs_err_pid*.log
+
+# Java Runtime & Artifacts
+*.class
+*.jar
+.gradle/
+build/
+
+# Operating System Files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory
+
+# Editor & IDE Directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ensure circuit source files are never ignored
+!*.circ
